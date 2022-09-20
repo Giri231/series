@@ -1,3 +1,4 @@
+/*it can also be performed by Xor (^)*/
 #include<iostream>
 
 using namespace std;
