@@ -1,0 +1,29 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,max2=0,max=0,ans;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        ans =a[i];
+        if(max<ans)
+        {
+            max2=max;
+            max=ans;
+        }
+        if(max2<ans && max!=ans)
+        {
+            max2=ans;
+        }
+        
+    }
+    cout<<max2;
+    }
